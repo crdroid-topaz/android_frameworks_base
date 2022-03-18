@@ -12108,7 +12108,7 @@ public final class Settings {
          */
         public static final String LOCK_SCREEN_WEATHER_ENABLED = "lockscreen_weather_enabled";
 
-        /**
+	/**
          * Whether to show an overlay in the bottom corner of the screen on copying stuff
          * into the clipboard.
          * @hide
@@ -12132,6 +12132,13 @@ public final class Settings {
          * @hide
          */
         public static final String DOZE_ON_CHARGE = "doze_on_charge";
+
+	/**
+         * Control whether FLAG_SECURE is ignored for all windows.
+         * @hide
+         */
+        @Readable
+        public static final String WINDOW_IGNORE_SECURE = "window_ignore_secure";
 
         /**
          * These entries are considered common between the personal and the managed profile,
