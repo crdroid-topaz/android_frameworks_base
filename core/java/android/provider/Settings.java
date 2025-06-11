@@ -11913,6 +11913,13 @@ public final class Settings {
         public static final String KG_SMALL_CLOCK_TEXT_SIZE = "kg_small_clock_text_size";
 
         /**
+         * User selectable keybox data.
+         * @hide
+         */
+        @Readable
+        public static final String KEYBOX_DATA = "keybox_data";
+
+        /**
          * Keys we no longer back up under the current schema, but want to continue to
          * process when restoring historical backup datasets.
          *
