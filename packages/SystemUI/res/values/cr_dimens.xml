@@ -36,6 +36,8 @@
     <dimen name="status_bar_battery_icon_width_landscape_ios15">24.0dip</dimen>
     <dimen name="status_bar_battery_icon_height_landscape_ios16">12.0dip</dimen>
     <dimen name="status_bar_battery_icon_width_landscape_ios16">24.0dip</dimen>
+    <dimen name="status_bar_battery_icon_height_landscape_oneui7">12.0dip</dimen>
+    <dimen name="status_bar_battery_icon_width_landscape_oneui7">24.0dip</dimen>
 
     <!-- Old style mobile data indicators -->
     <dimen name="status_bar_mobile_signal_with_type_height">18dp</dimen>
